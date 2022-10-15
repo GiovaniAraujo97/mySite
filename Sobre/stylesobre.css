@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+    body {
+        font-size: 100%;
+        background-image: url('fundosite.jpg');
+    }
+    
+    .cabecalho 
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        margin-top: 20% white;
+    }
+
+    .cabecalho-menu-item /* Botão Voltar */
+    {
+        
+        position: relative;
+        font-size: 25px;
+        color: white;
+        width: 100px;
+        height: 30px;
+        box-shadow: 4px 5px 4px #575fe2;
+        border-radius: 20px;
+        font-weight: 400;
+        font-size: 40px;
+        font-family: Comic Neue;
+
+    }
+    .conteudo  /* Centro */
+    {
+        margin-top: 0px;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        font-weight: 400;
+        font-size: 20px;
+        font-family: Comic Neue;
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+        justify-content: center;
+        border-top: 0.4px solid white;
+        margin-bottom: 48px;
+        
+
+    }
+    .conteudo-principal
+    {
+        
+        background-color: #575fe2;
+        padding: 35px;
+        margin-top: 0%;
+        
+        
+    }
+
+    .conteudo-principal-subtitulo
+    {
+        padding: 30px;
+        margin-left: 0px;
+        font-family: 'Comic Neue';
+        
+
+        
+
+}
+    .conteudo-principal-primeiro
+{
+    padding: 50px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+    .conteudo-principal-segundo
+{ 
+    background-color: hsl(209, 55%, 26%);
+    margin-top: 0px;
+    padding: 50px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    
+
+}

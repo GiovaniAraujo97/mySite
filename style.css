@@ -7,20 +7,17 @@
     text-decoration: none;
 }
     body {
+        margin: 0;
+        padding: 0;
         font-size: 100%;
         background-image: url('fundosite.jpg');
     }
 
     .cabecalho {
-        
-        display: flex;
-        flex-direction: row;
+        display: flex; 
         align-items: center;
         justify-content: space-around;
-        padding: 0.2% ;
-        color: white;
-        
-
+        color: rgb(255, 255, 255);
     }
 
     .primeira-img {
@@ -29,19 +26,36 @@
         height: 72px;
 
     }
-    
-    .cabecalho-menu {
+
+    .menu {
         display: flex;
-        gap: 32px;
-        padding-left: 00px;
-        
+        align-items: center;
+        justify-items: row;
     }
-    .cabecalho-menu-item {
-        
-        font-family: 'Comic Neue';
+    
+    header nav ul {
+        list-style-type: none;
+    }
+
+    header nav ul li{
+        display: inline-block;
+        padding: 0 40px;
+    }
+
+    header a{
         color: white;
-        font-weight: 400;
-        font-size: 18px;
+        font-family: sans-serif;
+    }
+
+    header button{
+        height: 44px;
+        width: 88px;
+        background-color: rgb(151, 187, 218);
+        color: rgb(0, 0, 0);
+        border: 0px;
+        border-radius: 20px 20px 20px 20px;
+        font-family: sans-serif;
+        font-size: 16px;
     }
 
     .conteudo
